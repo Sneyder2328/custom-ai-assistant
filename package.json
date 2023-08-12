@@ -4,6 +4,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "version:sdk": "lerna version --scope sdk --no-git-tag-version"
+  },
   "dependencies": {},
   "devDependencies": {
     "lerna": "^7.1.5"
