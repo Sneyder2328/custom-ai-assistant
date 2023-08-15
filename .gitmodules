@@ -7,3 +7,6 @@
 [submodule "packages/server"]
 	path = packages/server
 	url = git@github.com:Sneyder2328/custom-ai-assistant-server.git
+[submodule "packages/generator"]
+	path = packages/generator
+	url = https://github.com/Sneyder2328/custom-ai-assistant-generator.git

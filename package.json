@@ -5,7 +5,9 @@
     "packages/*"
   ],
   "scripts": {
-    "version:sdk": "lerna version --scope sdk --no-git-tag-version"
+    "dev": "start powershell -Command \"npm run dev:client\" && start powershell -Command \"npm run dev:server\"",
+    "dev:client": "cd packages/client && npm run dev",
+    "dev:server": "cd packages/server && npm run dev"
   },
   "dependencies": {},
   "devDependencies": {
